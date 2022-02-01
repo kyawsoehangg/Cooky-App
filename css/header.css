@@ -1,0 +1,50 @@
+
+.nav {
+    display: flex;
+    color: white;
+    width: 64%;
+    padding: 0.6rem 0;
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.nav_header {
+    width: 50px;
+    height: 32px;
+    display: flex;
+    gap: .6rem;
+    color: #bd9a01;
+    font-size: 1.6rem;
+    flex: 2;
+} 
+
+.nav_header-title {
+    font-family: logogg ;
+    font-size: 1.1rem;
+    color: #878a02;
+}
+
+.nav_container {
+    display: flex;
+    flex: 5;
+    justify-content: space-between;
+}
+
+.nav_container-item {
+    font-size: 1rem;
+    display: flex;
+
+}
+.nav_search {
+    font-size: 1rem;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;    
+}
+
+
+
+
+
+

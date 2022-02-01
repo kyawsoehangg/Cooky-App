@@ -1,0 +1,140 @@
+.cooky {
+    width: 100%;
+    height: 740px;
+    background: linear-gradient(90deg, rgba(197, 179, 8, 0.43) 5%, rgba(203, 201, 201, 0.22) 18%, rgba(255, 255, 255, 0.32) 66%, rgba(191, 179, 4, 0.39) 94%), url(../img/cropped-image-of-friends-toasting-with-red-wine-in-2021-08-29-00-58-24-utc.jpg);    
+    background-position: center;
+    background-size: cover;
+    border-top: 1px solid rgb(179, 176, 0);
+    border-bottom: 1px solid rgb(179, 176, 0);
+
+    font-weight: 300;
+    display: flex;
+}
+
+/* .cooky {
+    width: 100%;
+    height: 740px;
+    background-image: url(../img/cropped-image-of-friends-toasting-with-red-wine-in-2021-08-29-00-58-24-utc.jpg) ;
+    background-position: center;
+    background-size: cover;
+    
+    font-weight: 300;
+    display: flex; */
+
+
+
+
+
+/* /* .cooky::before{
+    background: linear-gradient(90deg, rgba(197, 179, 8, 0.43) 5%, rgba(203, 201, 201, 0.22) 18%, rgba(255, 255, 255, 0.32) 66%, rgba(191, 179, 4, 0.39) 94%);    
+    content: '';
+    /* display: block;
+    height: 740px;
+    position: absolute;
+    width: 100%;
+    /* background-size: cover; */ 
+
+
+
+
+.cooky_container {
+    width: 64%;
+    height: 740px;
+    display: flex;
+    margin: auto;
+    gap: 6rem;
+
+}
+
+.cooky_container-text {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    flex: 1;
+}
+
+.cooky_container-text h3 {
+    color: #878a02;
+    font-size: 5rem;
+    font-weight: 300;
+    font-family: logogg;
+}
+
+.cooky_container-text p{
+    background-color: rgba(248, 248, 248, 0.65);
+    word-spacing: 0.04rem;
+    letter-spacing: 0.05rem;
+    font-size: 1.1rem;
+    line-height: 1.2rem;
+}
+
+.cooky_container-app {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.cooky_container-app button {
+    width: 180px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 7px;
+    color: #878a02;
+    background: #000505d7;
+    border: 4px solid #878a02;
+    transition: ease;
+    
+}
+
+.cooky_container-app button:active{
+    
+    background-color: rgba(51, 21, 21, 0.836);
+}
+
+.cooky_container-app i {
+    font-size: 1.5rem;
+}
+
+
+.cooky_container-app p{
+    background-color: unset;
+    font-size: 0.8rem;
+    font-weight: 100;
+    line-height: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.cooky_container-image {
+    display: flex;
+    flex: 1;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.cooky_container-img {
+   width: 300px;
+   height: 650px;
+
+}
+
+.cooky_container-img img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.cooky_container-footer {
+    position: absolute;
+    color: rgba(248, 248, 248, 0.8);
+    left: 50%;
+    bottom: 12%;
+    transform: translate(50%,50%);
+
+}
+
+
+

@@ -1,0 +1,23 @@
+html {
+    width: 100%;
+    min-height: auto;
+    background-color: white;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+min-height: 900px;
+}
+
+header {
+    width: 100%;
+    background-color: black;
+    display: flex;
+
+}
+
+@font-face {
+    font-family: logogg;
+    src: url(../font/CollegiateBlackFLF.ttf);
+}

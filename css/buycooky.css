@@ -1,0 +1,92 @@
+.buycooky {
+    width: 100%;
+    height: 540px;
+    background: linear-gradient(90deg, #878a02 0%, rgba(255, 255, 255, 0) 24%, rgba(248, 248, 248, 0) 75%, rgba(170, 155, 2, 0.82) 98%), url(../img/istockphoto-1081422898-170667a.jpg);    
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-top: 1px solid rgb(179, 176, 0);
+    border-bottom: 1px solid rgb(179, 176, 0);
+}
+
+.bgimgbuy{
+}
+
+.buycooky_container {
+    width: 64%;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.buycooky_container-img {
+    width: 250px;
+    height: 300px;
+}
+
+.buycooky_container-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.buycooky_container-text {
+    width: 400px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.buycooky_container-text h3 {
+    font-size: 2rem;
+}
+
+.buycooky_container-button {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 1rem;
+}
+
+
+.buycooky_container-button button {
+    width: 180px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 7px;
+    color: #878a02;
+    border: 4px solid #878a02;
+    background-color: unset;
+    transition: ease;
+    background: #000505d7;
+
+}
+
+.buycooky_container-button button:active{
+    
+    background-color: rgba(51, 21, 21, 0.836);
+}
+
+.buycooky_container-button i{
+    color: #878a02;
+    font-size: 1.5rem;
+    
+}
+
+.buycooky_container-button p{
+    color: #878a02;
+    font-size: 0.8rem;
+    font-weight: 100;
+    line-height: 1rem;
+    padding-bottom: 0.5rem;
+}
+
